@@ -1,6 +1,7 @@
 let bool = true;
 let panel_class;
 const setUp = () =>{
+    getAllConcerts();
     concertSet();
     addText();
     $(".card").on("click", addText);

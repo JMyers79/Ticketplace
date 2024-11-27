@@ -19,3 +19,7 @@ const concerts = [
     }
   
   ]
+
+  const getAllConcerts = () => {
+    return concerts;
+  };
