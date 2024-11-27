@@ -1,0 +1,40 @@
+html{
+    background-color: gray;
+}
+header{
+    text-align: center;
+    background-color: #004075;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    margin: 2%;
+    flex-direction: row;
+    gap: 20px;
+}
+.card{
+
+    border: 5px solid white;
+    width: 400px;
+    height:auto;
+    background-color: lightslategray;
+}
+
+.card h2{
+    text-align: center;
+    background-color: #004075;
+    color: white;
+}
+
+.add{
+    height: 50px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
